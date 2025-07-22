@@ -3950,37 +3950,3 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
-/* Responsive adjustments added for mobile-friendly portfolio */
-
-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 20px;
-}
-
-.responsive-flex {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-@media only screen and (max-width: 768px) {
-    h1 {
-        font-size: 1.8em;
-    }
-    h2 {
-        font-size: 1.4em;
-    }
-    .inner {
-        padding: 15px;
-    }
-    ul {
-        padding-left: 20px;
-    }
-    nav {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-}
